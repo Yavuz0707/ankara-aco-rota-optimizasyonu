@@ -84,7 +84,7 @@ if st.button("ACO Algoritmasını Başlat"):
     matrix = get_google_matrix(LOCATIONS)
     
     # core/ant_algorithm.py içerisindeki sınıfı kullanarak optimizasyonu başlatır
-    # Not: Sınıf yapınıza göre n_best parametresi 5 olarak sabitlenmiştir
+  
     aco = AntColonyOptimizer(
         distances=matrix, 
         n_ants=n_ants, 

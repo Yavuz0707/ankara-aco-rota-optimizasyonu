@@ -1,0 +1,28 @@
+1. Karınca Sayısı (25)
+İşlevi: Her bir döngüde kaç tane hayali karıncanın farklı rotalar deneyeceğini belirler.
+
+Etkisi: Sayı arttıkça daha fazla rota keşfedilir (daha kaliteli sonuç), ancak bilgisayarın hesaplama yükü artar.
+
+2. İterasyon Sayısı (40)
+İşlevi: Algoritmanın toplamda kaç kez "karıncaları salıp feromonları güncelleme" işlemini yapacağını belirler.
+
+Etkisi: Bu sayı ne kadar yüksekse, karıncalar birbirlerinin izlerini o kadar çok takip eder ve en kısa yolu bulma ihtimalleri o kadar kesinleşir.
+
+3. Buharlaşma Oranı (0.63)
+İşlevi: Koddaki decay değeridir. Her tur sonunda yollardaki feromonun ne kadarının kalacağını (veya uçup gideceğini) belirler.
+
+Etkisi:
+
+Düşük Değer: Eski bilgiler çabuk silinir, karıncalar sürekli yeni yollar arar.
+
+Yüksek Değer: Karıncalar eski yollara çok sadık kalır, yeni ve daha kısa yolları keşfetmekte zorlanabilirler.
+
+4. Feromon Etkisi (Alpha - 1.71)
+İşlevi: Karıncanın bir sonraki durağı seçerken "başkalarının geçtiği yollara" ne kadar önem vereceğini belirler.
+
+Etkisi: Değer arttıkça karınca "sürü psikolojisi" ile hareket eder; yani daha önce çok geçilmiş (feromonu yüksek) yolları tercih eder.
+
+5. Mesafe Etkisi (Beta - 1.01)
+İşlevi: Karıncanın seçim yaparken "yolun gerçek kısalığına" ne kadar odaklanacağını belirler.
+
+Etkisi: Değer arttıkça karınca daha "mantıklı" ve "açgözlü" davranır; feromona bakmaksızın o anki en yakın noktaya gitmeye çalışır.
