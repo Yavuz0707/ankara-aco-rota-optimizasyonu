@@ -1,6 +1,6 @@
 # 🐜 Ankara ACO Rota Optimizasyonu
 
-Bu proje, **Ant Colony Optimization (Karınca Kolonisi Optimizasyonu)** algoritmasını kullanarak Ankara ve çevresindeki 10 farklı gölet/barajdan su numunesi toplamak için en kısa ve verimli rotayı belirlemeyi amaçlamaktadır.
+Bu proje, **Ant Colony Optimization (Karınca Kolonisi Optimizasyonu)** algoritmasını kullanarak Ankara ve çevresindeki 10 farklı gölet/barajdan su numunesi toplamak için en kısa ve verimli rotayı belirlemeyi amaçlamaktadır..
 
 > **Senaryo:** Çevre Bakanlığı'na ait birimler, zaman kısıtlılığı nedeniyle Ankara'daki numune noktalarını en kısa sürede gezmek zorundadır./
 
